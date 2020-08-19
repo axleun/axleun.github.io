@@ -1,4 +1,5 @@
 body {
+    font-family: 'Raleway';
     font-weight: 200;
 }
 
@@ -92,10 +93,21 @@ p.left {
     font-size: 1.3em;
 }
 
+img.keyboard {
+    margin: 20px;
+    border-radius: 10%;
+}
+
 @media (max-width: 720px) {
     .midContainer {
         padding-left: 2em!important;
         padding-right: 2em!important;
+    }
+    
+    img.keyboard {
+        height: 230px;
+        width: 300px;
+
     }
 }
 
@@ -129,6 +141,10 @@ p.left {
         font-size: 1.1em;
     }
 
+    img.keyboard {
+        height: 400px;
+        width: 520px;
+    }
     
 
     .midRow {
